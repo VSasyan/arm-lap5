@@ -36,7 +36,9 @@ Now we can run a container
 
     docker run -d -p 8080:80 vsasyan/arm-lap5
 
-Go to : [http://your_device:8080](http://your_device:8080)
+Go to : [http://your_device:8080](http://your_device:8080), you should get :
+
+![You should get](https://raw.githubusercontent.com/VSasyan/arm-lap5/master/doc/screen.png, "You should get")
 
 
 ## How to configure it?
