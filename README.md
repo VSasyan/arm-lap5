@@ -38,7 +38,7 @@ Now we can run a container
 
 Go to : [http://your_device:8080](http://your_device:8080), you should get :
 
-![You should get](https://raw.githubusercontent.com/VSasyan/arm-lap5/master/doc/screen.png, "You should get")
+![You should get](https://raw.githubusercontent.com/VSasyan/arm-lap5/master/doc/screen.png "You should get")
 
 
 ## How to configure it?
