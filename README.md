@@ -8,7 +8,7 @@ This in an arm Docker container to run a web server with apache and PHP5.
 
 ### Get the image
 
-I can't use the Docker autobuild tool beacause it is not compatible with arm architecture. So you have to build the image or trust my pushed image (vsasyan/arm-lap5).
+I can't make an automated build beacause it is not compatible with arm architecture. So you have to build the image or trust my pushed image (vsasyan/arm-lap5).
 
 
 #### Use the pushed image
