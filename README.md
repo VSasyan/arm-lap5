@@ -26,7 +26,7 @@ Clone the git repository
 
 Build the image
 
-    docker build -t vsasyan/arm-lap5 ./docker/arm-lap5
+    docker build -t vsasyan/arm-lap5 ./arm-lap5/docker
 
 
 ### Run a container
