@@ -4,11 +4,29 @@ This in an arm Docker container to run a web server with apache and PHP5.
 
 ## How run it?
 
-Pull the image:
+### Get the image
+
+I can use the Docker autobuild tool beacause it is not compatible with arm architecture. So you have to build the image or trust my pushed image (vsasyan/arm-lap5).
+
+#### Use the pushed image
+
+Pull the image
 
     docker pull vsasyan/arm-lap5
 
-Run a container:
+#### Build the image
+
+Clone the git repository
+
+    git clone https://github.com/VSasyan/arm-lap5.git
+
+Build the image
+
+    docker build -t vsasyan/arm-lap5 ./arm-lap5
+
+### Run a container
+
+Now we can run a container
 
     docker run -p 8080:80 vsasyan/arm-lap5
 
