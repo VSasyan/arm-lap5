@@ -24,7 +24,6 @@ Clone the git repository
 
     git clone https://github.com/VSasyan/arm-lap5.git
 
-
 Build the image
 
     docker build -t vsasyan/arm-lap5 ./arm-lap5
@@ -35,13 +34,13 @@ Build the image
 
 Now we can run a container
 
-    docker run -p 8080:80 vsasyan/arm-lap5
-
+    docker run -d -p 8080:80 vsasyan/arm-lap5
 
 Go to : [http://your_device:8080](http://your_device:8080)
 
 
 ## How to configure it?
+
 
 Fork or copy this repository.
 
